@@ -1,0 +1,12 @@
+// Supported languages: HTML, JavaScript, TypeScript, C# //
+
+// ----- Change only what is necessary, leave the rest untouched! ----- //
+
+spx.name = website-name-here 
+spx.key = API-KEY-HERE
+spx.lang = Coding_Language              // Two different languages = HTML_TypeScript | One language = HTML //
+spx.font = font_name                  // Available fonts: learn.microsoft.com/en-us/typography/font-list/ //
+spx.aikey = aniorep/v2-hotfix-flash-ai/experimental/getkey                    // Don't change //
+
+
+// ---- From here on out it's all yours, you can code however you want. ---- //
