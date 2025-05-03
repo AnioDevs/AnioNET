@@ -1,0 +1,18 @@
+-- This is an website template.
+
+["Domain"] = ".gg"
+["WebsiteName"] = "0.0.0.0"
+["Registrar"] = {
+ Reg.ID = 1 -- 1 = AnioDevs \ 2 = AnioNET \ 3 = Government \ (Other registrars have different ids)
+ Reg.Name = "AnioDevs"
+ Reg.Info = "This website is officially established by AnioDevs. n\ We are AnioDevs!" -- Use n\ to go down one paragraph
+["RegisterDate"] = redacted -- redacted = Unknown, hided.
+["Owner"] = {
+ Owner.ID = 0 --Owner's AnioNET ID
+ Owner.Name = "Anios"
+ Owner.Info = "CEO"
+["isPublic"] = no -- no = It's private \ maybe = Only whitelisted people can visit. \ yes = It's public!
+["Whitelist"] = "1", "2", "3" , -- Replace the numbers with the AnioNET IDs of the whitelisted people. (Will be disabled if your website is private or public but if your website is only whitelist mode it will be enabled)
+["Perms"] = PERMNAME.PERMID.AUTHKEY , PERMNAME.PERMID.AUTHKEY -- Check perms.txt for available permissions. 
+["WebsiteLang"] = "HTML" -- HTML = HTML \ Java = Java \ JS = JavaScript \ JSON = JavaScript Object Notation \ LUA = Lua
+-- Your code after this
