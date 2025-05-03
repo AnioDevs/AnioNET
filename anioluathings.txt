@@ -1,1 +1,21 @@
+Special stuff for AnioNET
 
+["GetUserID"] = Receives and returns the UserID (Only works if user has an AnioNET account)
+ Location = Server-Side
+ value-type = Number
+ if user doesnt have an account then error("Target's userID is unknown")
+ isAuthKeyRequired = no
+
+["GetLocation"] = Receives and returns the user's location (Example: Germany)
+ Location = Server-Side
+ value-type = String
+ isAuthKeyRequired = yes
+ aliases = getloc \ userlocation \ 
+
+["Announce"] = Creates a new announcement
+ Location = Server-Side
+ value-type = Both (String & Number & Special Characters)
+ isAuthKeyRequired = no
+ aliases = broadcast \ message
+
+["
