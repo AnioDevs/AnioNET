@@ -1,2 +1,5 @@
-${{ secrets.GITHUB_TOKEN }}
-
+Safe Perms: (Doesn't require AuthKey)
+[PERMNAME-PERMID]
+GetUserID - 1 = Gets the ID of users who visit your website.
+GetUserName - 2 = Gets the name of users who visit your website.
+GetUserDevice - 3 = Gets the device of users who visit your website. (Example: Computer - Mobile - Other)
