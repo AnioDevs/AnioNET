@@ -1,5 +1,26 @@
 Safe Perms: (Doesn't require AuthKey)
-[PERMNAME-PERMID]
-GetUserID - 1 = Gets the ID of users who visit your website.
-GetUserName - 2 = Gets the name of users who visit your website.
+[PERMNAME-PERMID] 
+
+# = (Won't work if user is not registered)
+
+
+GetUserID - 1 = Gets the ID of users who visit your website. #
+
+GetUserName - 2 = Gets the name of users who visit your website. #
+
 GetUserDevice - 3 = Gets the device of users who visit your website. (Example: Computer - Mobile - Other)
+
+GetBrowserVersion - 4 = Gets the version of the browser the user is using.
+
+APIRequest - 5 = Send requests to any API. You must send requests from your own IP.
+
+GetLocation - 6 = Gets the approximately location of user who visit your website. (Example: Germany, Russia)
+
+ShowAds - 7 = Allows advertisements to be displayed to the user. Placing advertisements without permission is prohibited so you must use this permission to show ads
+
+AgeRestricted - 8 =Indicates that the website contains +18 content. 
+
+GoreRestricted - 9 = Indicates that the website contains +20 (blood, brutality, disgusting images) content.
+
+Redirect - 10 = Indicates that there are redirects. 
+
