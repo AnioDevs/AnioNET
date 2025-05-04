@@ -6,52 +6,17 @@ Special stuff for AnioNET
  if user doesnt have an account then error("Target's userID is unknown")
  isAuthKeyRequired = no
 
-Example:
-
-local ban = project:GetService(function(ban)
-
-local v = project:Path(folder1, folder2, bannedids.ssc)
-
-project:VisitorAdded(GetUserID)
-if UserID == v
-
-ban(UserID)
-
-----------------------------------------------------------------------------------------
-
 ["GetLocation"] = Receives and returns the user's location (Example: Germany)
  Location = Server-Side
  value-type = String
  isAuthKeyRequired = yes
  aliases = getloc \ userlocation \ 
 
-Example:
-
-local location = project:GetService(GetLocation)
-
-if location ==Turkey then
- print("Hey brother!")
-
 ["Announce"] = Creates a new announcement
  Location = Server-Side
  value-type = Both (String & Number & Special Characters)
  isAuthKeyRequired = no
  aliases = broadcast \ message
-
-Example:
-
-local announcement = "I am a big boy with a lot of $$ omg ###"
-
-
-
-local announcement2 = "This is the second announcement."
-
-project:VisitorAdded(visitor)
-then announce(announcement)
-
-wait(seconds)
-
-announce(announcement2)
 
 Dosya Türleri:
 
@@ -67,4 +32,6 @@ Dosya Türleri:
 
 .note = txt Dosyasına benzer, içerisinde yazılar depolanabilir. Bu yazıları kullanıcı göremez, sadece geliştiriciler görebilir.
 
-.port
+.cfg = Hem client hemde server'da bulunan bir config dosyası.
+
+.bsc = Hem client hemde server'da çalıştırılan bir script dosyasıdır. 
