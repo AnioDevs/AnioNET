@@ -17,6 +17,8 @@ if UserID == v
 
 ban(UserID)
 
+----------------------------------------------------------------------------------------
+
 ["GetLocation"] = Receives and returns the user's location (Example: Germany)
  Location = Server-Side
  value-type = String
