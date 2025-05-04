@@ -2,21 +2,35 @@ Special stuff for AnioNET
 
 ["GetUserID"] = Receives and returns the UserID (Only works if user has an AnioNET account)
  Location = Server-Side
- value-type = Number
+ value-type = Number (Return)
  if user doesnt have an account then error("Target's userID is unknown")
  isAuthKeyRequired = no
 
 ["GetLocation"] = Receives and returns the user's location (Example: Germany)
  Location = Server-Side
- value-type = String
+ value-type = String (Return)
  isAuthKeyRequired = yes
- aliases = getloc \ userlocation \ 
 
 ["Announce"] = Creates a new announcement
  Location = Server-Side
- value-type = Both (String & Number & Special Characters)
+ value-type = Both (String & Number & Special Characters) (Insert your announcement)
  isAuthKeyRequired = no
- aliases = broadcast \ message
+
+["Preload"] = Pre-loads a page inside the website.
+ Location = Client-Side
+ value-type = nil
+ isAuthKeyRequired = yes
+ aliases = none
+
+["Import"] = Import a code from GitHub and run it
+ Location = Server-Side
+ value-type = Both (String & Number & Special Characters) (Insert project link)
+ isAuthKeyRequired = yes
+
+["Load"] = Allows adding a Library that AnioDevs trusts or is made by AnioDevs.
+ Location = Server-Side
+ value-type = Number (Library ID)
+ isAuthKeyRequired = no
 
 Dosya Türleri:
 
